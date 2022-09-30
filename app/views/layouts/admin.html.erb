@@ -1,0 +1,17 @@
+<!-- app/views/layouts/application.html.erb -->
+
+<!DOCTYPE html>
+<head>
+  <title>RailsLayoutsTemplatesLab</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<h1>Flatiron Widgets: Admin (admin_html)</h1>
+
+<%= yield %>
+
+</body>
+</html>
